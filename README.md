@@ -1,0 +1,2 @@
+# Rice
+Config files
