@@ -1,0 +1,4 @@
+systemctl edit getty@tty1.service --drop-in=autologin.conf
+#[Service]
+#ExecStart=
+#ExecStart=-/sbin/agetty -o '-p -f -- \\u' --noclear --autologin username %I $TERM
