@@ -1,5 +1,1 @@
-~/.config/hypr/hyprland.conf
-~/.config/alacritty/*
-~/.zshrc
-/var/lib/portage/world
-/etc/portage
+for file in $(<list); do cp -r "$file" dir; done
