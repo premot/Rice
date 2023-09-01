@@ -1,0 +1,4 @@
+dev-qt/*
+dev-lang/rust
+www-client/chromium
+www-client/firefox
