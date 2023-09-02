@@ -2,6 +2,7 @@ app-admin/doas
 app-admin/hddtemp
 app-admin/sudo
 app-arch/pigz
+app-containers/docker
 app-editors/vim
 app-misc/neofetch
 app-misc/radeontop
@@ -11,6 +12,7 @@ app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/portage-utils
+app-shells/fish
 app-shells/zsh
 app-text/tree
 dev-lang/rust-bin

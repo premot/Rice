@@ -21,3 +21,6 @@
 >=dev-qt/qtgui-5.15.10-r1 egl
 >=virtual/libcrypt-2-r1 static-libs
 >=sys-libs/libxcrypt-4.4.33 static-libs
+# required by app-shells/fish-3.4.0::gentoo
+# required by fish (argument)
+>=dev-libs/libpcre2-10.42-r1 pcre32
