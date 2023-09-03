@@ -1,2 +1,3 @@
+@reboot /mnt/nvme-raid0-1T/BINPKG/http.sh
 6 6 * * * emerge --sync > /root/sync.log && date >> /root/sync.log
 18 6 * * * MAKEOPTS="-j2" emerge -uDU @world > /root/emerge.log && date >> /root/emerge.log
