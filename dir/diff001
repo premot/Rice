@@ -1,0 +1,24 @@
+7c7
+< FEATURES="buildpkg"
+---
+> #FEATURES="buildpkg"
+10,13c10,13
+< PKGDIR="/mnt/nvme-raid0-1T/BINPKG"
+< #FEATURES="getbinpkg"
+< #EMERGE_DEFAULT_OPTS="--binpkg-respect-use=n --binpkg-changed-deps=y"
+< PORTAGE_BINHOST="http://192.168.1.37:3000/gentoo/binpkgs"
+---
+> #PKGDIR="/mnt/nvme-raid0-1T/BINPKG"
+> FEATURES="getbinpkg"
+> EMERGE_DEFAULT_OPTS="--binpkg-respect-use=n --binpkg-changed-deps=y"
+> PORTAGE_BINHOST="http://192.168.1.37:3000"
+21,22c21,22
+< EMERGE_DEFAULT_OPTS="--quiet-build=y --autounmask --autounmask-keep-masks"
+< MAKEOPTS="-j14"
+---
+> #EMERGE_DEFAULT_OPTS="--quiet-build=y --autounmask --autounmask-keep-masks"
+> MAKEOPTS="-j3"
+24c24
+< CCACHE_DIR="/mnt/nvme-raid0-1T/ccache"
+---
+> #CCACHE_DIR="/mnt/nvme-raid0-1T/ccache"
