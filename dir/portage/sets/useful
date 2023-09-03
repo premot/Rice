@@ -6,7 +6,7 @@ dev-python/pipx
 dev-util/vulkan-tools
 dev-vcs/repo
 #media-gfx/feh
-#media-gfx/nvidia-cg-toolkit
+media-gfx/nvidia-cg-toolkit
 media-libs/mesa
 #media-video/pipewire
 #media-video/wireplumber
@@ -38,8 +38,7 @@ net-analyzer/wireshark
 app-accessibility/espeak-ng
 app-backup/mkstage4
 app-editors/nano
-#app-misc/beep
-#dev-libs/glib
+app-misc/beep
 #dev-python/numpy
 #media-sound/fluidsynth
 #media-sound/hydrogen
@@ -47,7 +46,7 @@ app-editors/nano
 #media-sound/sox
 #media-tv/v4l-utils
 #net-ftp/atftp
-#x11-apps/mesa-progs
+x11-apps/mesa-progs
 #x11-apps/xbacklight
 #x11-apps/xmodmap
 #x11-apps/xrandr

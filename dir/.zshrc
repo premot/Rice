@@ -1,6 +1,5 @@
 PS1="%F{green}%n %1~         "
 RPROMPT='%F{blue}%D{%H:%M:%S}%f'
-
 setopt autocd              # change directory just by typing its name
 setopt magicequalsubst     # enable filename expansion for arguments of the form ‘anything=expression’
 setopt nonomatch           # hide error message if there is no match for the pattern
@@ -106,11 +105,14 @@ pfetch
 
 alias zz='d vim /etc/portage/package.use/manual'
 alias dc='sudo dispatch-conf'
-alias reboot='sudo umount -a && sudo reboot'
+alias nr='sudo eselect news read'
+alias reboot='sudo umount -a & sleep 5 && sudo reboot'
 alias poweroff='sudo umount -a && sudo poweroff'
 alias shutdown='sudo umount -a & sudo shutdown -h 1'
 alias d='sudo'
 alias g="sgpt '"
+alias g1="sgpt --repl chat001" #hardware
+alias g2="sgpt --repl chat002" #wayland
 alias hg='history | grep'
 alias sy="sudo emerge --sync"
 alias erg="sudo emerge -v"
