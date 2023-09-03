@@ -1,0 +1,18 @@
+7c7
+< FEATURES="buildpkg"
+---
+> #FEATURES="buildpkg"
+10,11c10,11
+< PKGDIR="/mnt/nvme-raid0-1T/BINPKG"
+< #FEATURES="getbinpkg"
+---
+> #PKGDIR="/mnt/nvme-raid0-1T/BINPKG"
+> FEATURES="getbinpkg"
+21c21
+< MAKEOPTS="-j14"
+---
+> MAKEOPTS="-j3"
+23c23
+< CCACHE_DIR="/mnt/nvme-raid0-1T/ccache"
+---
+> #CCACHE_DIR="/mnt/nvme-raid0-1T/ccache"
