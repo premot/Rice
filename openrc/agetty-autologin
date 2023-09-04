@@ -1,0 +1,6 @@
+#/etc/conf.d
+agetty_options="--autologin new --noclear"
+#/etc/init.d
+#ln -s agetty agetty-autologin.tty1
+#
+#/etc/inittab 

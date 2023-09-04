@@ -104,6 +104,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 pfetch
 
 alias zz='d vim /etc/portage/package.use/manual'
+alias ke='d vim /etc/portage/make.conf'
 alias dc='sudo dispatch-conf'
 alias nr='sudo eselect news read'
 alias reboot='sudo umount -a & sleep 5 && sudo reboot'
