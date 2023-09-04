@@ -1,1 +1,1 @@
-COMMON_FLAGS="-march=ivybridge -mno-avx -mno-aes -mno-rdrnd -01 -pipe"
+COMMON_FLAGS="-march=ivybridge -mno-avx -mno-aes -mno-rdrnd -Os -pipe"
