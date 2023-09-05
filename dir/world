@@ -8,6 +8,7 @@ app-editors/vim
 app-eselect/eselect-repository
 app-misc/neofetch
 app-misc/radeontop
+app-misc/resolve-march-native
 app-misc/screen
 app-portage/cpuid2cpuflags
 app-portage/eix
