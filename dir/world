@@ -1,7 +1,9 @@
 app-admin/doas
 app-admin/hddtemp
+app-admin/logrotate
 app-admin/s-tui
 app-admin/sudo
+app-admin/syslog-ng
 app-arch/pigz
 app-containers/docker
 app-editors/vim
@@ -14,6 +16,7 @@ app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
+app-portage/mirrorselect
 app-portage/portage-utils
 app-shells/fish
 app-shells/zsh
@@ -51,6 +54,7 @@ sys-apps/memtester
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-auth/elogind
+sys-auth/seatd
 sys-boot/grub
 sys-boot/os-prober
 sys-firmware/intel-microcode
@@ -65,7 +69,7 @@ sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/zfs
 sys-kernel/genkernel
-sys-kernel/gentoo-kernel-bin
+sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-power/acpi
 sys-power/cpupower
@@ -73,6 +77,7 @@ sys-power/powertop
 sys-power/thermald
 sys-power/tlp
 sys-process/htop
+sys-process/lsof
 sys-process/time
 virtual/cron
 www-client/firefox-bin
@@ -82,7 +87,7 @@ x11-base/xorg-server
 x11-drivers/nvidia-drivers
 x11-drivers/xf86-video-intel
 x11-misc/gammastep
-x11-terms/alacritty
+x11-terms/kitty
 x11-terms/rxvt-unicode
 x11-terms/st
 x11-terms/xterm

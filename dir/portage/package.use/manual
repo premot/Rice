@@ -31,6 +31,7 @@ x11-drivers/xf86-video-intel udev sna dri tools uxa xvmc
 x11-libs/gdk-pixbuf jpeg
 x11-libs/libdrm video_cards_radeon
 x11-terms/rxvt-unicode perl xft
+x11-terms/st savedconfig
 x11-wm/dwm xinerama
 media-tv/v4l-utils udev opengl bpf dvb
 media-libs/libsdl2 gles2
@@ -38,3 +39,6 @@ sys-apps/busybox -pam static
 media-libs/mesa xa
 dev-util/vulkan-tools cube -X
 x11-libs/gtk+ colord
+sys-auth/seatd builtin server
+sys-apps/busybox static -pam
+sys-kernel/genkernel firmware
