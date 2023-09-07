@@ -1,0 +1,4 @@
+4 4 * * * sudo rsync -aAXHv --delete --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt*","/media/*","/lost+found"} /
+/mnt2
+5 5 * * * sudo pacman -Syu --noconfirm > pacman.log && yay -Syu --noconfirm > yay.log
+
