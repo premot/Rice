@@ -4,3 +4,4 @@
 /home/risen/.zprofile
 /var/lib/portage/world
 /etc/portage
+/etc/genkernel.conf

@@ -34,3 +34,7 @@ dev-lang/rust-bin ~amd64
 =app-admin/s-tui-1.1.3-r1 ~amd64
 # required by amdgpu-fan (argument)
 =sys-power/amdgpu-fan-0.1.0-r1 ~amd64
+# required by @useful
+# required by @selected
+# required by @world (argument)
+=app-editors/vscode-1.81.1-r1 ~amd64
