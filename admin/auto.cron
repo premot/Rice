@@ -1,3 +1,3 @@
-@reboot cd /var/cache/binpkgs && python3 -m http.server 37 &&
+@reboot cd /var/cache/binpkgs && python3 -m http.server 37 &
 6 6 * * * emerge --sync > /root/sync.log && date >> /root/sync.log
 12 6 * * * MAKEOPTS="-j4" emerge -uDU @world > /root/emerge.log && date >> /root/emerge.log
