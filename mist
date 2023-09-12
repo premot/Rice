@@ -2,4 +2,5 @@
 /etc/portage
 /etc/genkernel.conf
 /etc/kernels
+/etc/default/grub
 /home/optimus/.config-v2
