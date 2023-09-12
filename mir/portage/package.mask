@@ -1,0 +1,6 @@
+dev-qt/*
+dev-lang/rust
+www-client/chromium
+www-client/firefox
+>=x11-terms/st-0.9
+app-admin/doas

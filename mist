@@ -1,0 +1,5 @@
+/var/lib/portage/world
+/etc/portage
+/etc/genkernel.conf
+/etc/kernels
+/home/optimus/.config-v2
