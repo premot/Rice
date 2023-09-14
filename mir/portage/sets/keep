@@ -1,0 +1,16 @@
+x11-terms/alacritty
+media-sound/pulseaudio
+media-gfx/feh
+sys-devel/clang-runtime
+sys-libs/compiler-rt
+sys-devel/clang-toolchain-symlinks
+media-sound/jack-example-tools
+media-sound/jack2
+sys-auth/realtime-base
+acct-group/realtime
+media-video/wireplumber
+media-video/pipewire
+acct-group/pipewire
+net-wireless/bluez
+sys-devel/clang
+sys-devel/clang-common

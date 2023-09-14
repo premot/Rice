@@ -1,0 +1,6 @@
+/dev/sdc1		/boot		vfat		defaults					1 2
+LABEL=rootfsRaid0	/mnt/raid0	btrfs		defaults,noatime,subvol=subRoot0		0 0		
+/dev/sdb3		/mnt/hdd	ext4		defaults,noatime				0 0
+LABEL=storage		/mnt/storage	btrfs		defaults,noatime,subvol=st0r4g3			0 0	
+LABEL=rootfsRaid5	/		btrfs		defaults,noatime,subvol=subRoot5		0 0		
+tmpfs			/tmp		tmpfs		rw,nosuid,noatime,nodev,size=256M,mode=1777	0 0

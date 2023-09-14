@@ -1,0 +1,4 @@
+app-admin/doas
+sys-auth/pambase
+sys-apps/portage
+sys-apps/openrc
