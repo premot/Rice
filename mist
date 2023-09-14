@@ -3,4 +3,8 @@
 /etc/genkernel.conf
 /etc/kernels
 /etc/default/grub
+/etc/fstab
 /home/optimus/.config-v2
+/home/optimus/.zshrc
+/home/optimus/.config/alacritty
+/home/optimus/.config/hypr
