@@ -6,5 +6,7 @@
 /etc/fstab
 /home/optimus/.config-v2
 /home/optimus/.zshrc
+/home/optimus/.zsh
+/home/optimus/.zprofile
 /home/optimus/.config/alacritty
 /home/optimus/.config/hypr
