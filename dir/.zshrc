@@ -103,11 +103,15 @@ fi
 . /home/$USER/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 
-pfetch
+#pfetch
 
 #alias d='sudo'
 alias d='doas'
+alias rsync='rsync -avP'
+alias tarj='tar --use-compress-program=lbzip2'
+alias dum='d umount -a'
 alias drm='d rm -r'
+alias drb='d reboot'
 alias lt='ls -trsh'
 alias ll='ls -trshl'
 alias la='ls -trla'
@@ -118,17 +122,21 @@ alias dc='d dispatch-conf'
 #alias reboot='d umount -a & sleep 5 && d reboot'
 #alias poweroff='d umount -a && d poweroff'
 alias shutdown='d umount -a & d shutdown -h 1'
-alias g="sgpt '"
-alias g1="sgpt --repl chat001" #hardware
-alias g2="sgpt --repl chat002" #wayland
+alias g1="sgpt --repl chat1"
+alias g2="sgpt --repl chat2"
+alias g2="sgpt --repl chat3"
+alias gt="sgpt --repl temp"
 alias hg='history | grep'
 #alias sy="d emerge --sync"
 alias erg="d emerge -v"
 alias arg="d emerge -av"
-alias werg="d emerge -avUDN @world"
+alias werg="d emerge -av -uDUN @world"
+alias wurg="d emerge -uDU @world"
 alias v="d vim"
+alias vz="vim .zshrc"
 alias n="nvim"
 alias dnu="d ncdu"
 alias GIT='git add . && git commit -m "update" && cat /keys-IMPORTANT/new-github-token && git push'
 alias f="ls * | grep"
 
+alias temps="sensors |grep -v thermistor|grep C"
