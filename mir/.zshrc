@@ -103,7 +103,8 @@ fi
 . /home/$USER/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 
-pfetch
+#pfetch
+
 
 #alias d='sudo'
 alias d='doas'
