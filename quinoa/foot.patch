@@ -1,0 +1,20 @@
+--- foot/foot.ini	2023-09-24 20:33:42.025486715 +0300
++++ /home/risen/.config/foot/foot.ini	2023-09-24 21:04:10.955562070 +0300
+@@ -8,7 +8,7 @@
+ # title=foot
+ # locked-title=no
+ 
+-font=monospace:size=16
++font=monospace:size=32
+ # font-bold=<bold variant of regular font>
+ # font-italic=<italic variant of regular font>
+ # font-bold-italic=<bold+italic variant of regular font>
+@@ -33,7 +33,7 @@
+ # selection-target=primary
+ # workers=<number of logical CPUs>
+ 
+-[environment]
++#[environment]
+ # name=value
+ 
+ [bell]
