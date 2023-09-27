@@ -1,1 +1,2 @@
-rsync -av mir/ ~
+#rsync -av quinoa/ ~/.config
+#rsync -av mir/ ~/.config
